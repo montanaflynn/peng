@@ -1,0 +1,14 @@
+{
+  "name"          : "ping-node",
+  "description"   : "Simple website ping monitoring",
+  "url"           : "http://github.com/dpweb/ping-node/",
+  "keywords"      : ["util", "nodejs", "express", "web", "testing"],
+  "author"        : "C Borkert <ILIKECHEESE@dpsw.info>",
+  "dependencies": {
+  },
+  "repository": {
+  	"type": "git",
+		"url": "git://github.com/dpweb/ping-node.git"
+  },
+  "version"       : "0.0.1"
+}
