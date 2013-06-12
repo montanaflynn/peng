@@ -5,10 +5,11 @@
   "keywords"      : ["util", "nodejs", "express", "web", "testing"],
   "author"        : "C Borkert <ILIKECHEESE@dpsw.info>",
   "dependencies": {
+     "colors":""
   },
   "repository": {
   	"type": "git",
 		"url": "git://github.com/dpweb/ping-node.git"
   },
-  "version"       : "0.0.1"
+  "version"       : "0.1.0"
 }
