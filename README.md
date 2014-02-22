@@ -1,23 +1,26 @@
-ping-node
+peng
 =========
 
-###Ping web servers to see if they're up.. Every 10 min by default.
+###Ping web servers to see if they're up, optionally check text return..
 
-servers.json
+Create a config file..
+
+peng.json
 ````
 {
-	"http://baddomain.git": "",
-	"http://dpsw.info": ""
+	"Google": {
+		/* url */
+	    "check": "http://google.com",
+
+	    /* seconds, minutes, hours, days, weeks, months, years */
+	    "every": "1 minute",
+
+	    /* text that must be matched in the response */
+	    "forText": "google"
+    }
 }
 ````
 
 ````
-$ node ping
-````
-
-###Options
-
-Every one minute..
-````
-$ min=1 node ping
+$ peng
 ````

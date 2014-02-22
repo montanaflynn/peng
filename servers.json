@@ -1,4 +1,12 @@
 {
-	"http://baddomain.git": "",
-	"http://dpsw.info": ""
+   "Google": {
+	    "check": "http://google331212342342342.com",
+	    "every": "1 minute"
+   },
+
+   "DP": {
+	    "check": "http://dpsw.info",
+	    "every": "10 seconds",
+	    "forText": "dssss"
+    }
 }
