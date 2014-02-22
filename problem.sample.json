@@ -1,0 +1,17 @@
+{
+
+  "Pipes": {
+     ".": ""
+  },
+
+  "Mailgun": {
+    "user": "",
+    "password": ""
+  },
+
+  "Nexmo": {
+    "mynumber": "",
+	"key": "",
+	"secret": ""
+  }
+}

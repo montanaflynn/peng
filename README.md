@@ -6,7 +6,7 @@ Prints errors to stdout..
 
 Create a config file..
 
-peng.json
+servers.json
 ````
 {
 	"Google": {
@@ -23,5 +23,11 @@ peng.json
 ````
 
 ````
-$ peng
+$ peng.js
+````
+
+Pipe to email (Mailgun) or SMS (Nexmo)..
+
+````
+$ peng.js | problem.js
 ````
