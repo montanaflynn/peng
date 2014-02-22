@@ -10,8 +10,10 @@ process.stdin.on('readable', function(chunk) {
 
 function ex(msg){
 	for(i in settings.Pipes){
-	  if(msg.match(RegExp(i)))
+	  if(msg.match(RegExp(i))){
 	  	console.log('match', settings.Pipes[i]);
+      
+    }
 	}
 }
 
