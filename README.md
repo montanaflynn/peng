@@ -18,16 +18,15 @@ servers.json
 
 	    /* text that must be matched in the response */
 	    "forText": "google"
+    },
+    
+    "GoogleBad": {
+	    "check": "http://google331212342342342.com",
+	    "every": "1 minute"
     }
 }
 ````
 
 ````
 $ peng.js
-````
-
-Pipe to email (Mailgun) or SMS (Nexmo)..
-
-````
-$ peng.js | problem.js
 ````
