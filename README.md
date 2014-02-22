@@ -1,7 +1,8 @@
 peng
 =========
 
-###Ping web servers to see if they're up, optionally check text return..
+Ping web servers to see if they're up, optionally check text return..
+Prints errors to stdout..
 
 Create a config file..
 
